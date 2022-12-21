@@ -10,7 +10,7 @@ public class FunctionMathematique {
 			throw new FactorielException();
 		}
 	double fact=1;
-	for (int i=1;i<=nombre;nombre++) {
+	for (int i=1;i<=nombre;i++) {
 		fact=fact*i;
 	}
 	return fact;
