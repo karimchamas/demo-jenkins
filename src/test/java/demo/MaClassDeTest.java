@@ -21,7 +21,7 @@ FunctionMathematique fct;
 void avantChaque() {
 fct=new FunctionMathematique();
 }
-
+//kk
 @AfterEach
 void apresChaqueTest() {
 fct=null;
